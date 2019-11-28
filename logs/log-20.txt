@@ -1,0 +1,4 @@
+1574396871950|INFO|org.arl.unet.UnetBoot@1:invoke|fjage Build: fjage-1.6.1/10-09-2019_00:41:43
+1574396871962|INFO|org.arl.unet.UnetBoot@1:invoke|UnetBoot: [samples/2-node-network.groovy]
+1574396872035|INFO|org.arl.unet.JsonTypeAdapter@1:<clinit>|Groovy detected, using GroovyClassLoader
+1574396872046|INFO|org.arl.fjage.remote.MessageAdapterFactory@1:<clinit>|Groovy detected, using GroovyClassLoader

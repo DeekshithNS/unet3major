@@ -1,0 +1,23 @@
+1574837023526|INFO|org.arl.unet.UnetBoot@1:invoke|fjage Build: fjage-1.6.1/10-09-2019_00:41:43
+1574837023560|INFO|org.arl.unet.UnetBoot@1:invoke|UnetBoot: [sim, scripts/2-node-network.groovy]
+1574837023623|INFO|org.arl.unet.JsonTypeAdapter@1:<clinit>|Groovy detected, using GroovyClassLoader
+1574837023634|INFO|org.arl.fjage.remote.MessageAdapterFactory@1:<clinit>|Groovy detected, using GroovyClassLoader
+1574837023951|WARNING|org.arl.fjage.shell.GroovyScriptEngine@1:error|Groovy script execution failed
+
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+/home/deekshith/unet-3.0.0/scripts/2-node-network.groovy: 23: unable to resolve class FloodMsg 
+ @ line 23, column 30.
+     	container.add "FloodMsg"  new FloodMsg()
+                                ^
+
+1 error
+
+Stack trace: ...
+   org.arl.fjage.shell.GroovyScriptEngine.exec(GroovyScriptEngine.java:215) ...
+   org.arl.unet.boot.sim.exec(sim.groovy:41)
+   org.arl.unet.boot.sim$exec$0.callCurrent(Unknown Source) ...
+   org.arl.unet.boot.sim.exec(sim.groovy:57)
+   org.arl.unet.boot.sim$exec.call(Unknown Source) ...
+   org.arl.unet.UnetBoot.run(UnetBoot.groovy:167) ...
+   org.arl.unet.UnetBoot.main(UnetBoot.groovy)
+
