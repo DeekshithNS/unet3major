@@ -19,6 +19,7 @@ class Floodmsg extends UnetAgent {
     // subscribe to topics of interest to get notifications
 
       subscribeForService(Services.PHYSICAL)
+      subscribeForService(Services.DATAGRAM)
       //subscribe Topic('DATAGRAM')
   }
 
